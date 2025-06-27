@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+
+.post{
+    width: 360px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    width: 32px;
+    height: 32px;
+    background: #eee;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
+}
+
+.username{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+
+.post-header i{
+    font-size: 1rem;
+    color: #262626;
+    cursor: pointer;
+}
+
+.post-img img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+
+.post-icons{
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+}
+
+
+.post-icons i{
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+
+.post-icons i:last-child{
+margin-left: auto;
+margin-right: 0;
+}
+
+.post-body{
+    padding: 0 0.75rem 1rem;
+}
+
+.likes{
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.likes strong{
+    font-weight: 500;
+}
+
+.caption{
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #262626;
+}
